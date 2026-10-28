@@ -71,7 +71,7 @@ fun PantallaLogin() {
     }
 
     Scaffold(
-        topBar = { BarraSuperior("MTickets") }
+        topBar = { BarraSuperior("Tickets") }
     ) { innerPadding ->
         Column(
             modifier = Modifier
