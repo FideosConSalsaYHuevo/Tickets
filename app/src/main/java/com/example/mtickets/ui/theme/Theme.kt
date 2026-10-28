@@ -13,8 +13,12 @@ private val DarkColorScheme = darkColorScheme(
     primaryContainer = VerdeContenedor80,
     onPrimaryContainer = VerdeSobreContenedor80,
     secondary = Gris80,
-    tertiary = Naranjo80
+    tertiary = Naranjo80,
+    surfaceVariant = Color(0xFFDCEBDD),
+    onSurfaceVariant = Color(0xFF3F5440),
+    surfaceContainerHighest = Color(0xFFDCEBDD)
 )
+
 
 private val LightColorScheme = lightColorScheme(
     primary = Verde40,
