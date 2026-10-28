@@ -23,8 +23,11 @@ private val LightColorScheme = lightColorScheme(
     onPrimaryContainer = VerdeSobreContenedor40,
     secondary = Gris40,
     tertiary = Naranjo40,
-    background = Color(0xFFF7FAF7),
-    surface = Color(0xFFF7FAF7)
+    background = Color(0xFFEFEFEF),
+    surface = Color(0xFFB0FAB0),
+    surfaceVariant = Color(0xFFDCEBDD),
+    onSurfaceVariant = Color(0xFF3F5440),
+    surfaceContainerHighest = Color(0xFFDCEBDD)
 )
 
 @Composable
