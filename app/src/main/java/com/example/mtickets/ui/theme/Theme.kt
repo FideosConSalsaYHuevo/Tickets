@@ -9,7 +9,7 @@ import androidx.compose.ui.graphics.Color
 
 private val DarkColorScheme = darkColorScheme(
     primary = Verde80,
-    onPrimary = Color(0xFF0B2A47),
+    onPrimary = Color(0xFF0B2E0E),
     primaryContainer = VerdeContenedor80,
     onPrimaryContainer = VerdeSobreContenedor80,
     secondary = Gris80,
@@ -23,8 +23,8 @@ private val LightColorScheme = lightColorScheme(
     onPrimaryContainer = VerdeSobreContenedor40,
     secondary = Gris40,
     tertiary = Naranjo40,
-    background = Color(0xFFF7F9FC),
-    surface = Color(0xFFF7F9FC)
+    background = Color(0xFFF7FAF7),
+    surface = Color(0xFFF7FAF7)
 )
 
 @Composable
