@@ -8,19 +8,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Azul80,
+    primary = Verde80,
     onPrimary = Color(0xFF0B2A47),
-    primaryContainer = AzulContenedor80,
-    onPrimaryContainer = AzulSobreContenedor80,
+    primaryContainer = VerdeContenedor80,
+    onPrimaryContainer = VerdeSobreContenedor80,
     secondary = Gris80,
     tertiary = Naranjo80
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Azul40,
+    primary = Verde40,
     onPrimary = Color.White,
-    primaryContainer = AzulContenedor40,
-    onPrimaryContainer = AzulSobreContenedor40,
+    primaryContainer = VerdeContenedor40,
+    onPrimaryContainer = VerdeSobreContenedor40,
     secondary = Gris40,
     tertiary = Naranjo40,
     background = Color(0xFFF7F9FC),
